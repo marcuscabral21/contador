@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+
+body{
+  /* Define a imagem de fundo */
+  background-image: url('background.jpg');
+  /* Define a largura e altura da imagem (opcional) */
+  background-size: cover;
+  /* Define como a imagem se repete (se necessário) */
+  background-repeat: no-repeat;
+}   
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px; /* Define a altura do contêiner principal */
+    color: black;
+    font-size: 50px;
+    font-family: 'Young Serif', serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 350px; /* Define a altura do contêiner principal */
+    font-size: 70px;
+    font-family: 'Young Serif', serif;
+}
+
+.btn-decrease, .btn-reset, .btn-increase {
+    background-color: grey; 
+    color: white;
+    padding: 10px 20px; /* Ajuste o espaçamento interno dos botões conforme necessário */
+    margin: 5px; /* Ajuste as margens conforme necessário */
+    font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
+    font-family: 'Young Serif', serif;
+}
