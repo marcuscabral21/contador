@@ -10,7 +10,7 @@ body{
 }   
 
 .main-container {
-    display: flex;
+    display: flex; 
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ body{
 .btn-decrease, .btn-reset, .btn-increase {
     background-color: grey; 
     color: white;
-    padding: 10px 20px; /* Ajuste o espaçamento interno dos botões conforme necessário */
+    padding: 10px 20px; /* Ajuste o espaçamento interno dos botões conforme necessário [10 (superior e inferior) ; 20 (direita e esquerda)]*/
     margin: 5px; /* Ajuste as margens conforme necessário */
     font-size: 20px; /* Ajuste o tamanho da fonte conforme necessário */
     font-family: 'Young Serif', serif;
